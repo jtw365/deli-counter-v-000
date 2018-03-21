@@ -8,6 +8,6 @@ def line(katz_deli)
     current_line = "The line is currently: "
     katz_deli.each_with_index {|name, index| puts "#{index + 1} #{name}"}
 
-#binding.pry
+binding.pry
   end
 end
