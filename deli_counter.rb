@@ -10,3 +10,5 @@ def line(katz_deli)
     puts current_line
   end
 end
+
+def take_a_number(katz_deli, name)
