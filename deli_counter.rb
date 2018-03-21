@@ -22,7 +22,7 @@ def now_serving(katz_deli)
     puts "There is nobody waiting to be served!"
   else katz_deli.length >= 1
     serving_line = "Currently serving"
-    katz_deli.each {|name| serving_line << " #{name}"}
+    katz_deli.first {|name| serving_line << " #{name}"}
     puts serving_line
   end
 end
