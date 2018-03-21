@@ -13,6 +13,6 @@ end
 
 def take_a_number(katz_deli, name)
   if line(katz_deli) >= 1
-    puts "Welcome, #{name}. You are number 1 in line."
+    "Welcome, #{name}. You are number 1 in line."
   end
 end
