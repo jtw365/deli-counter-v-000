@@ -7,6 +7,7 @@ def line(katz_deli)
   elsif katz_deli.length >= 1
     current_line = "The line is currently: "
     katz_deli.each.with.index {|name, index| puts "#{index + 1} #{name}"}
+    
 
 #binding.pry
   end
