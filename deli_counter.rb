@@ -13,6 +13,6 @@ end
 
 def take_a_number(katz_deli, name="Ada")
   if line(katz_deli) == 0
-    name
+    puts name
   end
 end
