@@ -13,6 +13,6 @@ end
 
 def take_a_number(katz_deli, name)
   if line(katz_deli) == 0
-    puts name
+    puts "Welcome #{name}"
   end
 end
