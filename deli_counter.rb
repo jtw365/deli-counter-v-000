@@ -12,7 +12,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name="Ada")
-  if katz_deli.length == 0
+  if line(katz_deli) == 0
     name
   end
 end
