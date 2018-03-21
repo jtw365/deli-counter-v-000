@@ -12,7 +12,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  if line(katz_deli) >= 1
+  if katz_deli.length >= 1
     "Welcome, #{name}. You are number 1 in line."
   end
 end
